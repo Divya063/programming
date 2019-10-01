@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+It is risky to compare floating point numbers with the == operator, because it
+is possible that the values should be equal but they are not because of precision
+errors. A better way to compare floating point numbers is to assume that two
+numbers are equal if the difference between them is less than ε , where ε is a
+small number.
+In practice, the numbers can be compared as follows ( ε = 10 − 9 ):
+if (abs(a-b) < 1e-9) {
+// a and b are equal
+}
+
+
+sum = (n( n + 1)(2 n + 1))/6;
+
+sum of arithmetic progression= n(a+b)/2 where a is first number and b is last number
